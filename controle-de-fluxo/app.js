@@ -60,7 +60,7 @@ const handleFormExerciseK = () => {
     const result = document.querySelector(`#resultK`)
     const num = parseFloat(document.querySelector(`#num1K`).value)
     if (isNaN(num)) return alert(`Digite um valor valido no input do formulario K `)
-    if (num >= 1 && num < 10) return result.textContent = `esta dentro da faixa permitida`   
+    if (num >= 1 && num <= 10) return result.textContent = `esta dentro da faixa permitida`   
     return result.textContent = `Nao esta dentro da faixa permitida `
 }
 

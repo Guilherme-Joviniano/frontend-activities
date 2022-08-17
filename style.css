@@ -31,11 +31,12 @@ a:hover {
     transform: scale(1.6);
 }
 .container {
-    width: 1600px;
+    flex-wrap: wrap;
+    width: 100vw;
     height: 100vh;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 50px;
 }
