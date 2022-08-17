@@ -29,7 +29,8 @@ const handleFormExerciseC = () => {
     let notas = [];
     for(let i = 1; i <= 4; ++i) {  
         let nota = parseFloat(document.querySelector(`#num${i}C`).value)
-        if(nota < 0) return alert(`E necessario um numero maior que zero nos inputs do exercisio c`)
+        if (nota < 0 || nota > 10) return alert(`E necessario um numero maior que zero e menor ou igual a 10 nos inputs do exercisio c`);
+        if (isNaN(nota)) return alert(`Preencha os campos com valores validos no exercicio C`)
         notas.push(nota)
     }
     const media = notas.reduce((a, b) => a + b, 0) / notas.length
