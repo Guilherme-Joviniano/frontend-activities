@@ -72,6 +72,7 @@ const handleFormExerciseO = () => {
     if(value < 30) return result.textContent = `Valor menor que 30`
     return result.textContent = `${value}`
 } 
+
 const handleButtonClick = (e) => {
     e.preventDefault();
     const el = e.target;
