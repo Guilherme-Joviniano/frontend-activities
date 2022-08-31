@@ -16,6 +16,6 @@ showArray(numbersPlus(100, numbers), 'main', 'Aumentando 100 em cada elemento');
 
 showArray(filterEvens(numbers), 'main', 'Somente os numeros pares');
 
-showArray([totalValue(applyDiscount(4, numbers)).toFixed(3)],'main', 'Total dos valores com desconto')
+showArray([totalValue(applyDiscount(4, numbers)).toFixed(2)],'main', 'Total dos valores com desconto')
 
 showArray(numbersPlus(21, filterOdds(numbers)),'main', 'todos os elementos impares somados de 21')
