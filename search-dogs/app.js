@@ -46,8 +46,8 @@ const showImages = (images) => {
     })
 } 
 
-const handleSearchChange = (e) => {
-    const value = e.target.value;
+const handleSearchChange = ({ target }) => {
+    const value = target.value;
     const url = addField(value);
     fetchImagesDog(url);
 }
