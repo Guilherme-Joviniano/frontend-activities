@@ -14,7 +14,7 @@ showArray(numbers, 'main', 'Todos os Numeros:')
 
 showArray(numbersPlus(100, numbers), 'main', 'Aumentando 100 em cada elemento');
 
-showArray(filterEvens(numbers), 'main', 'Somento os numeros pares');
+showArray(filterEvens(numbers), 'main', 'Somente os numeros pares');
 
 showArray([totalValue(applyDiscount(4, numbers)).toFixed(3)],'main', 'Total dos valores com desconto')
 
