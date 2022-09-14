@@ -13,7 +13,7 @@ const handleSearch = async ({
     target
 }) => {
     if (key === 'Enter') {
-        const response = await fetchImagesDog(target.value);
+        const response = await fetchImagesDog(target.value.toLowerCase());
         console.log(response);
         if (response.status === 'error') return showMessage('No Founded Hound', 8000) // 8s 
         const {
