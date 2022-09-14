@@ -1,4 +1,4 @@
-import fetchImagesDog from "./src/utils/fetchDogsImages.js";ad
+import fetchImagesDog from "./src/utils/fetchDogsImages.js";
 import createGallery from "./src/components/Gallery/index.js";
 import createImageCards from "./src/components/Card/index.js";
 import {
