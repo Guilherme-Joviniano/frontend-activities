@@ -7,7 +7,7 @@ const handleSearch = async ({ key, target }) => {
     if (key === 'Enter') {
         const response = await fetchImagesDog(target.value);
         console.log(response);
-        if (response.status === 'error') return showMessage('No Founded Hound')
+        if (response.status === 'error') return showMessage('No Founded Hound', 4000) // 4s 
         const { message } = response; 
         const images = createImageCards(message);
         createGallery(images)
