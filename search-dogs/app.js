@@ -1,8 +1,6 @@
 import fetchImagesDog from "./src/components/Gallery/fetchDogsImages.js";
-import {
-    createGallery,
-    createImageCards
-} from "./src/components/Gallery/index.js";
+import createGallery from "./src/components/Gallery/index.js";
+import createImageCards from "./src/components/Card/index.js";
 import {
     showMessage
 } from './src/utils/showMessage.js'
